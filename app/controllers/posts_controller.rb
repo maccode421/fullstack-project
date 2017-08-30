@@ -42,6 +42,7 @@ class PostsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_post
       @post = Post.find(params[:id])
+      binding.pry
     end
 
     # Only allow a trusted parameter "white list" through.
