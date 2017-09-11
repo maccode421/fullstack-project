@@ -7,10 +7,10 @@ curl "${API}${URL_PATH}/" \
   --header "Content-Type: application/json" \
   --data '{
     "post": {
-      "user_id": "1",
-      "photo": "",
-      "catch_date": "2017-07-07",
-      "content": "whatever is whatever"
+      "user_id": "'"${USER_ID}"'",
+      "photo": "'"${PHOTO}"'",
+      "catch_date": "'"${CATCH_DATE}"'",
+      "content": "'"${CONTENT}"'"
     }
   }'
 

@@ -1,14 +1,23 @@
 Full Stack Project by Macc Pholsina
 
-About Project:
+About Project: Refer to front-end repo.
 
 Links:
+front-end repo: https://github.com/maccode421/fullstack-project-front-end
+deployed link: https://maccode421.github.io/fullstack-project-front-end/
+heroku: 
+
 
 Technologies Used:
 
+
+
 Project Planning:
-First of all, of course you have to come up with an idea. For me, this was a project in itself.
+
+
 
 WIREFRAME:
+
+
 
 USER STORIES:

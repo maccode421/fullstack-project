@@ -7,11 +7,11 @@ curl "${API}${URL_PATH}/${ID}" \
   --header "Content-Type: application/json" \
   --data '{
     "comment": {
-      "id":2,
-      "user_id":1,
-      "post_id":1,
-      "photo":"",
-      "content":"keep the keeper"
+      "id": "'"${ID}"'",
+      "user_id": "'"${USER_ID}"'",
+      "post_id": "'"${POST_ID}"'",
+      "photo": "'"${POST}"'",
+      "content": "'"${CONTENT}"'"
     }
   }'
 
