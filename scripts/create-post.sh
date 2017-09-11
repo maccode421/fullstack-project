@@ -8,6 +8,7 @@ curl "${API}${URL_PATH}/" \
   --data '{
     "post": {
       "user_id": "1",
+      "photo": "",
       "catch_date": "2017-07-07",
       "content": "whatever is whatever"
     }
